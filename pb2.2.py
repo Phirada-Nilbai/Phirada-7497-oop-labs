@@ -3,7 +3,7 @@ def compute_avg_list():
 	list = []
 	while True:
 		inputuser = int(input("Enter positive number:"))
-		if inputuser < 0 :
+		if inputuser <= 0 :
 			print("You enterd",list)
 			average = sum/len(list)
 			print("The average number of a list is %.1f" %average)
